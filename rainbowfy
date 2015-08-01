@@ -21,4 +21,10 @@ def colorizeStr(factor,string):
         printColor(indexes[r],indexes[g],indexes[b],c)
         r = (r+factor) % len(indexes)
 
-colorizeStr(2, ' '.join(sys.argv[1:]))
+def main():
+    colorizeStr(2, ' '.join(sys.argv[1:]))
+
+if __name__ == '__main__':
+    main()
+
+
