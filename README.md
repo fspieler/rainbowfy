@@ -4,7 +4,7 @@ Simple rainbow text effect suitable for 256-bit color ANSI terminal; particularl
 Simple example usage (possibly in ~/.bashrc):
 
 ```
-export PS1=$(rainbowfy $USER@$(hostname))":\w >\ [\033[0;00m\] "
+export PS1=$(python3 rainbowfy $USER@$(hostname))":\w >\ [\033[0;00m\] "
 ```
  Explanation of how it works:
  
